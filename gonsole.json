@@ -1,0 +1,24 @@
+{
+    "package": "main",
+    "version": "1.0.0",
+    "author": "gonsole",
+    "email": "info@gonsole.io",
+    "license": "MIT",
+    "framework": {
+        "path": {
+            "controller": "handler",
+            "entity": "entity",
+            "template": "template"
+        },
+        "orm": {
+            "driver": "entgo"
+        },
+        "route": {
+            "driver": "gofiber"
+        }
+    },
+    "script": {
+        "build": "go build .",
+        "dev": "go run ."
+    }
+}
