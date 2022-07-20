@@ -6,7 +6,7 @@
     "license": "MIT",
     "framework": {
         "path": {
-            "controller": "controller",
+            "controller": "handler",
             "entity": "entity",
             "template": "template"
         },
